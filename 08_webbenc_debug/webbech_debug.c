@@ -51,7 +51,7 @@ int main(int argc, char const *argv[])
 	if(http10>0)
 	strcat(request,"User-Agent: WebBench "PROGRAM_VERSION"\r\n");
 
-	//Request head--host
+	//Request header--host
 	strcat(request,"Host: ");
 	strcat(request,host);
 	strcat(request,"\r\n");
